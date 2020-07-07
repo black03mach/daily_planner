@@ -36,15 +36,24 @@
 
 .now{
     background-color: orange;
-    color: black
+    color: black;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
 }
 
 .forward{
     background-color: green;
-    color: black
+    color: black;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
 }
 
 .before{
     background-color: gray;
-    color: black
+    color: black;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
 }
