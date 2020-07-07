@@ -1,0 +1,50 @@
+.mainView {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.timediv{
+    display: flex;
+}
+
+.timeSlot{
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.plannerInput {
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+}
+
+.inputForm{
+    width: 100%;
+    height: 100%;
+}
+
+.saveButton {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-direction: row;
+}
+
+.now{
+    background-color: orange;
+    color: black
+}
+
+.forward{
+    background-color: green;
+    color: black
+}
+
+.before{
+    background-color: gray;
+    color: black
+}
