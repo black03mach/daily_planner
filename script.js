@@ -1,6 +1,6 @@
 var dailyTasks = []
 var localStorage = JSON.parse(localStorage.getItem('inputs'))
-var currentHour = parseInt(moment().format("HH")) - 8;
+var currentHour = parseInt(moment().format("HH"));
 var dailyHours = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
 var timeSlotId = ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17"];
 var militaryTime = ["08:00:00", "09:00:00", "10:00:00", "11:00:00", "12:00:00", "13:00:00", "14:00:00", "15:00:00", "16:00:00", "17:00:00"];
